@@ -58,7 +58,7 @@ body {
 .main-info .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 100vh;
+  height: 150vh;
   width: var(--container-width);
   align-items: center;
 }
@@ -77,6 +77,8 @@ body {
 
 .main-info img {
   max-width: 100%;
+  margin-top: 3em;
+  margin-bottom: 5em;
 }
 
 h1 {
@@ -89,6 +91,7 @@ h1 {
 
 .main-info p {
   margin-bottom: 1em;
+  margin-top: 2em;
 }
 
 .btn-info {
