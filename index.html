@@ -1,169 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manuel Flores Fotografía</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/materialize.min.css">  
-  <link rel="stylesheet" href="css/simple-lightbox.min.css">  
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <title>Mauel Flores Fotógrafo-Villahermosa, Tabasco</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b4ac7d1905.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"/>
+    <script defer src="js/app.js"></script>
+
 </head>
 <body>
-  <header id="home">
-    <nav class="nav">
-      <div class="nav-wrapper">
-        <div class="container">
-          <a href="#!" class="brand-logo brand">Fotógrafo</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down menu">
-            <li><a href="#home">Inicio</a></li>
-            <li><a href="#products">Socios</a></li>
-            <li><a href="#drummers">Sesiones</a></li>
-          </ul>
+        <header class="topcontainer">
+        
+            <nav class="topnav" id="promo">
+            <a href="#" class="logo">
+              <img
+                height="50"
+                width="50"
+                src="img/fotografo.jpg"
+                alt="programador"
+              />
+              <div class="logotype">
+                Manuel Flores<br />
+                Fotografía
+              </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+              <img src="img/hamburger-icon.svg" alt="abrir menú" />
+            </button>
+            <ul class="menu">
+              <button class="close-menu" aria-label="Cerrar menú">
+                <img src="img/close-icon.svg" alt="cerrar menú" />
+              </button>
+              <li><a href="#profile" class="selected">Profil</a></li>
+              <li><a href="#experience">Expérience</a></li>
+              <li><a href="#skills">Habilités</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+            
+            
+            <!--barra-->
+        <div class="social-bar">
+        <a href="https://www.facebook.com/DevCode.la" class="icon icon-whatsapp" target="_blank"></a>
+        <a href="https://twitter.com/DevCodela" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://www.youtube.com/c/devcodela" class="icon icon-instagram" target="_blank"></a>
+        <a href="https://www.instagram.com/devcodela/" class="icon icon-linkedin2" target="_blank"></a>
         </div>
-      </div>
-    </nav>
-  </header>
-
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="#">Inicio</a></li>
-    <li><a href="#">Herramientas</a></li>
-    <li><a href="#">Sesiones</a></li>
-  </ul>
-
-  <main class="main-info">
-    <div class="absolute-title">
-      <h3>MF</h3>
-    </div>
-    <div class="container">
-      <div data-aos="fade-right" data-aos-duration="2000">
-        <h1><span>Manuel </span>Flores</h1>
-        <p>Profesional de la fotografía, experiencia laboral amplia como fotógrafo en diferentes áreas como el e-commerce y la realización de eventos. 
-
-          Adaptación de shootings a las demandas digitales de cada marca, cada evento y persona. Elaborando fotos de celebraciones, productos web, lifestyle, para diferentes formatos de redes sociales, etc.</p>
-        <button class="btn-info">Read More</button>
-      </div>
-       <img src="img/jared.jpeg" alt="xk-drums tama" data-aos="fade-left" data-aos-duration="2000">
-    </div>
-  </main>
-
-  <article class="overlay-section">
-    <div class="overlay">
-      <div class="container">
-        <h3>Fotógrafo Manuel Flores</h3>
-        <h2>"Cuando tengo una cámara en la mano, no conozco el miedo"</h2>
-        <p>Profesional de la fotografía, experiencia laboral amplia como fotógrafo en diferentes áreas como el e-commerce y la realización de eventos. 
-
-          Adaptación de shootings a las demandas digitales de cada marca, cada evento y persona. Elaborando fotos de celebraciones, productos web, lifestyle, para diferentes formatos de redes sociales, etc.</p>
-      </div>
-    </div>
-  </article>
-
-  <article class="products" data-aos="fade-up" data-aos-duration="3000">
-    <section class="product-title" id="products">
-      <h2>Herramientas</h2>
-      <div class="divider"></div>
-    </section>
-    <div class="carousel">
-     
-      <a class="carousel-item" href="#two!">
-        <img src="./img/products/k.png" alt="Roland drum set">
-        <h5>Cámara</h5>
-      </a>
-      <a class="carousel-item" href="#three!">
-        <img src="./img/products/logo.png" alt="Roland drum set">
-        <h5>Photoshop</h5>
-      </a>
-      <a class="carousel-item" href="#four!">
-        <img src="./img/products/li.png" alt="Sjc ">
-        <h5>Lightroom</h5>
-      </a>
-      
-    </div>
-  </article>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" class="skew" viewBox="0 0 1440 320">
-    <path fill="#000" fill-opacity="1" d="M0,64L1440,288L1440,320L0,320Z"></path>
-  </svg>
-  
-  <div class="our-drummers" id="drummers">
-   <h2>Sesión de Maternidad</h2>
-    <div class="divider"></div>
-
-    <div class="drummers" >
-      <div class="gallery">
-        <a href="./img/drummers/e1.jpeg"><img src="./img/drummers/e1.jpeg" alt="Vinnie Colaiuta playing drums" /></a>
-        <a href="./img/drummers/e3.jpeg"><img src="./img/drummers/e3.jpeg" alt="Mike Pornoy in action" /></a>
-        <a href="./img/drummers/e4.jpeg"><img src="./img/drummers/e4.jpeg" alt="Tomas Lang" /></a>
-        <a href="./img/drummers/e5.jpeg"><img src="./img/drummers/e5.jpeg" alt="Mike Pornoy in action" /></a>
-        <a href="./img/drummers/e6.jpeg"><img src="./img/drummers/e6.jpeg" alt="Alex Gonzales rocking" /></a>
-        <a href="./img/drummers/e2.jpeg"><img src="./img/drummers/e2.jpeg" alt="Erick Moore" /></a>
-    </div>
-    </div>
-  </div>
-
-  
-
-  <div class="our-drummers" id="drummers">
-    <br><br><br><br><h2>Sesión de Modelaje</h2>
-    <div class="divider"></div>
-
-    <div class="drummers" >
-      <div class="gallery">
-        <a href="./img/drummers/c1.jpeg"><img src="./img/drummers/c1.jpeg" alt="Vinnie Colaiuta playing drums" /></a>
-        <a href="./img/drummers/c2.jpeg"><img src="./img/drummers/c2.jpeg" alt="Mike Pornoy in action" /></a>
-        <a href="./img/drummers/c3.jpeg"><img src="./img/drummers/c3.jpeg" alt="Tomas Lang" /></a>
-        <a href="./img/drummers/c4.jpeg"><img src="./img/drummers/c4.jpeg" alt="Mike Pornoy in action" /></a>
-        <a href="./img/drummers/c5.jpeg"><img src="./img/drummers/c5.jpeg" alt="Alex Gonzales rocking" /></a>
-        <a href="./img/drummers/c6.jpeg"><img src="./img/drummers/c6.jpeg" alt="Erick Moore" /></a>
-    </div>
-    </div>
-  </div>
-
-
-  <div class="our-drummers" id="drummers">
-    <br><br><br><br><h2>Sesión Cake Smash</h2>
-    <div class="divider"></div>
-
-    <div class="drummers" >
-      <div class="gallery">
-        <a href="./img/drummers/p1.jpeg"><img src="./img/drummers/p1.jpeg" alt="Vinnie Colaiuta playing drums" /></a>
-        <a href="./img/drummers/p2.jpeg"><img src="./img/drummers/p2.jpeg" alt="Mike Pornoy in action" /></a>
-        <a href="./img/drummers/p3.jpeg"><img src="./img/drummers/p3.jpeg" alt="Tomas Lang" /></a>
-        <a href="./img/drummers/p4.jpeg"><img src="./img/drummers/p4.jpeg" alt="Mike Pornoy in action" /></a>
-        <a href="./img/drummers/p5.jpeg"><img src="./img/drummers/p5.jpeg" alt="Alex Gonzales rocking" /></a>
-        <a href="./img/drummers/p6.jpeg"><img src="./img/drummers/p5.jpeg" alt="Erick Moore" /></a>
-    </div>
-    </div>
-  </div>
-
- 
-  <footer class="footer">
+        
+    </header>
     
-    <div class="container">
-      <div class="social-media">
-        <h3>Contáctame</h3>
-        <a href="#"><i class="fab fa-whatsapp"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <main>
        
-        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-    </div>
-   
-    </div>
-  </footer>
+      <video muted autoplay loop >
+        <source src="videos/portada.mp4" type="video/mp4">
+      </video>
   
+      <div class="capa"></div>
+  
+       
+       <section class="sesiones">
+        <div class="s">
+          <h1>SESIÓN MATERNIDAD</h1>
+        </div>
+        <div class="gallery">
+          
+            <img class="foto" src="img/e1.jpeg" alt="">
+            <img class="foto" src="img/e2.jpeg" alt="">
+            <img class="foto" src="img/e3.jpeg" alt="">
+            <img class="foto" src="img/e4.jpeg" alt="">
+            <img class="foto" src="img/e5.jpeg" alt="">
+            <img class="foto" src="img/e6.jpeg"  alt="">    
+        </div>
+         
+         </section> 
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="js/simple-lightbox.min.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <script>
-    var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
-  </script>
+         
+       <section class="sesiones">
+        <div class="s">
+          <h1>SESIÓN MATERNIDAD</h1>
+        </div>
+        <div class="gallery">
+            <img class="foto" src="img/p3.jpeg" alt="">
+            <img class="foto" src="img/p2.jpeg" alt="">
+            <img class="foto" src="img/p1.jpeg" alt="">
+            <img class="foto" src="img/p4.jpeg" alt="">
+            <img class="foto" src="img/p5.jpeg" alt="">
+            <img class="foto" src="img/p6.jpeg"  alt="">      
+        </div>
+         
+        </section> 
+
+        <section class="sesiones">
+          <div class="s">
+            <h1>SESIÓN MATERNIDAD</h1>
+          </div>
+          <div class="gallery">
+              
+              <img class="foto" src="img/c2.jpeg" alt="">
+              <img class="foto" src="img/c5.jpeg" alt="">
+              <img class="foto" src="img/c3.jpeg" alt="">
+              <img class="foto" src="img/c4.jpeg" alt="">
+              
+              <img class="foto" src="img/c6.jpeg"  alt="">    
+              <img class="foto" src="img/c1.jpeg" alt="">  
+          </div>
+           
+           </section> 
+
+        
+        
+    </main>
+    
+    <footer>
+      <div class="main-content">
+       <div class="left box">
+         <h2>Contáctame</h2>
+         <div class="content">
+           <p>Comunícate conmigo para agendar una sesión, te comparto mis redes sociales. ¡Nos vemos en el set!</p>
+           <div class="social">
+             <a class="face" target="_blank" href="https://www.facebook.com/profile.php?id=100049409706744"><span id="uno" class="fab fa-facebook-f"></span></a>
+             <a class="whats" target="_blank" href="#"><span id="dos" class="fab fa-whatsapp"></span></a>
+             <a  class="ins" target="_blank" href="https://instagram.com/_yousingler?utm_medium=copy_link"><span  id="tres" class="fab fa-instagram"></span></a>
+            
+           </div>
+         </div>
+       </div>
+      
+       <div class="center box">
+         <h2>Ubicación</h2>
+         <div class="content">
+           <div class="place">
+             <span class="fas fa-map-marker-alt"></span>
+             <span class="text">Tabasco, México</span>
+           </div>
+           <div class="phone">
+             <span class="fas fa-phone-alt"></span>
+             <span class="text">+52 993 175 7085</span>
+           </div>
+           <div class="email">
+             <span class="fas fa-envelope"></span>
+             <span class="text">jaredmfp30@gmail.com</span>
+           </div>
+         </div>
+       </div>
+      
+       <div class="right box">
+         <h2>Contacto</h2>
+         <div class="content">
+           <form action="#">
+             <div class="email">
+               <div class="text">Email *</div>
+               <input type="email" required>
+             </div>
+             <div class="msg">
+               <div class="text">Mensaje *</div>
+               <textarea rows="2" cols="25" required></textarea>
+             </div>
+             <div class="btn">
+               <button type="submit">Enviar Mensaje</button>
+             </div>
+           </form>
+         </div>
+       </div>
+      </div>
+      <div class="bottom">
+       <center>
+         <span class="credit">Desarrollado por 
+           <a target="_blank" href="">Nathalia Gómez</a> | </span>
+         <span class="far fa-copyright"></span><span> 2022</span>
+       </center>
+      </div>
+      </footer>
 </body>
 </html>
