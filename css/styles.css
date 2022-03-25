@@ -13,6 +13,98 @@ header{
     height: 800px;
 }
 
+/*Tarjeta presentación*/
+
+.presentacion{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: 0px 14px 32px 0px #0183fc;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 1px;
+}
+
+.presentacion .tarjeta{
+    width: 50%;
+}
+
+.presentacion .tarjeta img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.producto-info{
+    width: 50%;
+    border-radius: 0 7px 10px 7px;
+    background: white;
+}
+
+.producto-texto{
+    width: 100%;
+}
+
+.producto-texto h1, .precio-btn{
+    font-family: serif;
+}
+
+.producto-texto h1{
+    margin-left: 38px;
+    padding-top: 52px;
+    font-size: 34px;
+    color: #0183fc;
+}
+
+.producto-texto h2{
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #0183fc;
+    letter-spacing: .2em;
+}
+
+.producto-texto p{
+    height: 125px;
+    margin-left: 38px;
+    font-family: sans-serif;
+    color: #0183fc;
+    line-height: 1.7em;
+
+}
+
+.precio-btn{
+    height: 103px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+.precio-btn a{
+    height: 50px;
+    width: 176px;
+    border-radius: 60px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: white;
+    background: #0183fc;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+.precio-btn a:hover{
+    background: blue;
+
+}
+
+
+
+
 .gallery{
     background-color: #f74cd0;
     columns: 1 604px;
