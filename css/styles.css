@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
+    
 }
 
 header{
@@ -13,97 +14,123 @@ header{
     height: 800px;
 }
 
-/*Tarjeta presentación*/
+/*TARJETA PRESENTACIÓN*/
 
-.presentacion{
-    height: 500px;
-    width: 50%;
-    display: flex;
-    margin: auto;
-    border-radius: 7px;
-    box-shadow: 0px 14px 32px 0px #0183fc;
-    overflow: hidden;
-    box-sizing: border-box;
-    margin-top: 1px;
-}
-
-.presentacion .tarjeta{
-    width: 50%;
-}
-
-.presentacion .tarjeta img{
+/*.info{
     width: 100%;
-    vertical-align: top;
-}
-
-.producto-info{
-    width: 50%;
-    border-radius: 0 7px 10px 7px;
-    background: white;
-}
-
-.producto-texto{
-    width: 100%;
-}
-
-.producto-texto h1, .precio-btn{
-    font-family: serif;
-}
-
-.producto-texto h1{
-    margin-left: 38px;
-    padding-top: 52px;
-    font-size: 34px;
-    color: #0183fc;
-}
-
-.producto-texto h2{
-    margin: 0 0 47px 38px;
-    font-size: 13px;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    color: #0183fc;
-    letter-spacing: .2em;
-}
-
-.producto-texto p{
-    height: 125px;
-    margin-left: 38px;
-    font-family: sans-serif;
-    color: #0183fc;
-    line-height: 1.7em;
-
-}
-
-.precio-btn{
-    height: 103px;
-    margin-top: 17px;
+    height: 100vh;
     display: flex;
+    align-items: center;
     justify-content: center;
+    background-color: #eee;
+    padding: 0 1.5rem;
+}*/
+
+.info{
+    padding: 50px;
 }
 
-.precio-btn a{
-    height: 50px;
-    width: 176px;
-    border-radius: 60px;
-    font-family: sans-serif;
+.img{
+    padding-left:8em;
+}
+
+
+.post{
+    width: 100%;
+    max-width: 80rem;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.img{
+    min-width: 35rem;
+    max-width: 35rem;
+    height: 30rem;
+    transform: translateX(-8rem);
+    position: relative;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 2rem;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #fff;
+}
+
+.titulo{
+    font-size: 2.5rem;
+    margin: 1rem 0 1rem;
     text-transform: uppercase;
-    letter-spacing: .2em;
-    color: white;
-    background: #0183fc;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    line-height: 50px;
+    color: #4facfe;
 }
 
-.precio-btn a:hover{
-    background: blue;
-
+.fecha{
+    display: block;
+    color: rgba(0, 0, 0, .5);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: .5rem 0 1rem;
 }
 
+.descripcion{
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, .7);
+}
 
+.btn{
+    padding: 0;
+    overflow: hidden;
+    border-width: 0;
+    outline: none;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    background-color: #4facfe;
+    color: #ecf0f1;
+    float: right;
+    display: block;
+    padding: 12px;
+}
 
+.btn:hover{
+    background-color: #2592f1;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media screen and (max-width: 1068px){
+    .post{
+        max-width: 80rem;
+    }
+    .img{
+        min-width: 30rem;
+        max-width: 30rem;
+    }
+}
+
+@media screen and (max-width: 868px){
+    .post{
+        padding: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .post{
+        padding: 2.5rem;
+        flex-direction: column;
+    }
+    .img{
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0, -8rem);
+    }
+}
 
 .gallery{
     background-color: #f74cd0;
