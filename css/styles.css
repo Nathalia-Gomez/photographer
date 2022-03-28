@@ -17,19 +17,12 @@ header{
 
 /*TARJETA PRESENTACIÓN*/
 
-/*.info{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #eee;
-    padding: 0 1.5rem;
-}*/
-
-/*.info{
-    padding: 50px;
-}*/
+.info{
+    /*padding: 50px;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
 
 .img{
     padding-left:8em;
