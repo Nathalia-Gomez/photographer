@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Dancing+Script:wght@500&family=Prompt:wght@300&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -19,8 +20,8 @@ header{
 
 .info{
     /*padding: 50px;*/
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
     margin-top: 50px;
 }
 
@@ -67,15 +68,17 @@ header{
 .fecha{
     display: block;
     color: rgba(0, 0, 0, .5);
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 600;
     margin: .5rem 0 1rem;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .descripcion{
     margin-bottom: 3rem;
-    font-size: 1.4rem;
-    color: rgba(0, 0, 0, .7);
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Prompt', sans-serif;
 }
 
 .btn{
@@ -155,7 +158,7 @@ nth:first-child{
 
 .gallery{
     padding: 100px;
-    background-color: black;
+    background-color:rgb(101, 205, 219);
     columns: 5 320px;
     column-gap: 0.5em;
     
@@ -169,7 +172,7 @@ nth:first-child{
 }
 
 .sesiones{
-    background-color: black;
+    background-color: rgb(101, 205, 219);
     
 }
 
@@ -208,8 +211,26 @@ video{
     z-index: 2;
 }
 
+.cursiva{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 3.5rem;
+}
 
+.cursiva-azul{
+    font-family: 'Dancing Script', cursive;
+    margin: 1rem 0 1rem;
+    color: #4facfe;
+    font-size: 3rem;
+}
 
+.descripcion-sesiones{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, .7);
+    font-family: 'Barlow Condensed', sans-serif;
+}
 
 
     

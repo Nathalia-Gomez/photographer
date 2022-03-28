@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Dancing+Script:wght@500&display=swap');
 *{
   margin: 0;
   padding: 0;
   color: #d9d9d9;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 .content1{
   position: relative;
@@ -13,20 +13,25 @@
   padding: 0 20px;
 }
 .content1 .text{
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
-  color: #202020;
+  color: black;
 }
+
+/*Texto izquierda*/
 .content1 .p{
-  font-size: 2.1875rem;
+  font-size: 5rem;
   font-weight: 600;
-  color: #202020;
+  color: black;
 }
+
+
+/*Cambia todo en fondo*/
 footer{
   /*position: fixed;*/
   bottom: 0px;
   width: 100%;
-  background: #111;
+  background: black;
 }
 .main-content{
   display: flex;
@@ -36,9 +41,10 @@ footer{
   padding: 10px 20px;
 }
 .box h2{
-  font-size: 1.125rem;
+  font-size: 3rem;
   font-weight: 600;
-  text-transform: uppercase;
+  font-family: 'Dancing Script', cursive;
+  color: white;
 }
 .box .content{
   margin: 20px 0 0 0;
@@ -50,7 +56,7 @@ footer{
   top: -10px;
   height: 2px;
   width: 100%;
-  background: #1a1a1a;
+  background: black;
 }
 .box .content:after{
   position: absolute;
@@ -60,15 +66,14 @@ footer{
   background: black;
   top: -10px;
 }
-.left .content p{
-  text-align: justify;
-}
+
 .left .content .social{
   margin: 20px 0 0 0;
 }
 .left .content .social a{
   padding: 0 2px;
 }
+
 .left .content .social .face #uno{
   height: 40px;
   width: 40px;
@@ -130,7 +135,7 @@ footer{
   background: black;
 }
 .center .content .text{
-  font-size: 1.0625rem;
+  font-size: 3rem;
   font-weight: 500;
   padding-left: 10px;
 }
@@ -138,9 +143,9 @@ footer{
   margin: 15px 0;
 }
 .right form .text{
-  font-size: 1.0625rem;
+  font-size: 3rem;
   margin-bottom: 2px;
-  color: #656565;
+  color: black;
 }
 .right form .msg{
   margin-top: 10px;
@@ -148,7 +153,7 @@ footer{
 .right form input, .right form textarea{
   width: 100%;
   font-size: 1.0625rem;
-  background: #151515;
+  background: black;
   padding-left: 10px;
   border: 1px solid #222222;
 }
@@ -228,4 +233,18 @@ outline:none;
 
 #ins{
     
+}
+
+.hola{
+  font-size: 2.5rem;
+  text-align: start;
+}
+
+.credit{
+  font-size: 2.5rem;
+}
+
+.tamano-span{
+  font-size: 2.5rem;
+  display: inline;
 }
