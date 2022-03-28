@@ -76,9 +76,10 @@ header{
 
 .descripcion{
     margin-bottom: 3rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgb(0, 0, 0);
-    font-family: 'Prompt', sans-serif;
+    /*font-family: 'Prompt', sans-serif;*/
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .btn{
@@ -97,36 +98,6 @@ header{
 
 .btn:hover{
     background-color: #2592f1;
-}
-
-/* ===== RESPONSIVE ===== */
-
-@media screen and (max-width: 1068px){
-    .post{
-        max-width: 80rem;
-    }
-    .img{
-        min-width: 30rem;
-        max-width: 30rem;
-    }
-}
-
-@media screen and (max-width: 868px){
-    .post{
-        padding: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .post{
-        padding: 2.5rem;
-        flex-direction: column;
-    }
-    .img{
-        min-width: 100%;
-        max-width: 100%;
-        transform: translate(0, -8rem);
-    }
 }
 
 .gallery{
@@ -227,10 +198,62 @@ video{
 .descripcion-sesiones{
     padding-left: 2rem;
     padding-right: 2rem;
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: rgba(0, 0, 0, .7);
     font-family: 'Barlow Condensed', sans-serif;
 }
+
+
+@media screen and (max-width: 430px){
+    .cursiva{
+        font-size: 3.5rem !important; 
+    }
+
+    .cursiva-azul{
+        font-size: 3rem !important;
+    }
+
+    .descripcion-sesiones{
+        font-size: 3rem !important;
+    }
+
+    .descripcion{
+        font-size: 2rem !important;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .post{
+        padding: 2.5rem;
+        flex-direction: column;
+    }
+    .img{
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0, -8rem);
+    }
+
+   
+}
+
+@media screen and (max-width: 868px){
+    .post{
+        padding: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1068px){
+    .post{
+        max-width: 80rem;
+    }
+    .img{
+        min-width: 30rem;
+        max-width: 30rem;
+    }
+}
+
+
 
 
     
